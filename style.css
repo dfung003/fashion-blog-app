@@ -1,12 +1,9 @@
-html {
-    border-left: 5px lightgray;
-}
-
 body {
     min-height: 100vh;
     max-width: 1000px;
     margin: auto;
     font-family: sans-serif;
+    border-left: 5px lightgray solid;
 }
 
 header {
@@ -45,7 +42,7 @@ ul {
     justify-content: space-between;
 }
 
-.top-nav > ul > li > a {
+.top-nav>ul>li>a {
     color: lightgray;
     padding: 1rem;
 }
@@ -62,7 +59,7 @@ article {
     padding-bottom: 2rem;
 }
 
-article > div > p::first-letter {
+article>div>p::first-letter {
     color: lightgray;
     font-size: 300%;
     float: left;
@@ -73,7 +70,7 @@ article > div > p::first-letter {
     justify-content: space-between;
 }
 
-.bottom-nav > ul > li > a {
+.bottom-nav>ul>li>a {
     color: tomato;
     padding: 0.5rem;
 }
